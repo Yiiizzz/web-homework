@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>我的个人主页</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <!-- 头部（含导航） -->
+  <header class="site-header">
+    <div class="brand">张敬熠</div>
+    <button class="menu-toggle" aria-label="打开菜单">☰</button>
+    <nav class="site-nav">
+      <a href="#about">关于我</a>
+      <a href="#education">教育</a>
+      <a href="#skills">技能</a>
+      <a href="#projects">作品</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <!-- 主体 -->
+  <main>
+    <!-- 关于我 -->
+    <section id="about" class="card">
+      <h2>关于我</h2>
+      <img src="images/me.jpeg" alt="张敬熠-头像" class="avatar"/>
+      <p>你好！我是张敬熠，目前就读于 西南大学 软件工程专业，热爱 Web 开发。</p>
+      <p>目标方向：前端 / 全栈。正在学习 HTML、CSS、JavaScript。</p>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="card">
+      <h2>教育背景</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>时间</th><th>学校</th><th>专业</th><th>学历</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2023 - 至今</td><td>西南大学</td><td>软件工程</td><td>本科</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="card">
+      <h2>技能特长</h2>
+      <ul class="skill-list">
+        <li>HTML / CSS / JavaScript 基础</li>
+        <li>Git 基本操作（add/commit/push）</li>
+        <li>VS Code 常用插件：Live Server</li>
+      </ul>
+      <div class="skill-bars">
+        <div class="skill"><span>HTML</span><div class="bar" data-percent="80"></div></div>
+        <div class="skill"><span>CSS</span><div class="bar" data-percent="75"></div></div>
+        <div class="skill"><span>JS</span><div class="bar" data-percent="60"></div></div>
+      </div>
+    </section>
+
+    <!-- 作品 -->
+    <section id="projects" class="card">
+      <h2>作品展示</h2>
+      <div class="projects">
+        <article class="project">
+          <img src="images/project1.png" alt="项目1截图"/>
+          <h3>项目 1：个人主页</h3>
+          <p>使用 HTML/CSS/JS 完成的第一个页面。</p>
+        </article>
+        <article class="project">
+          <img src="images/project2.png" alt="项目2截图"/>
+          <h3>项目 2：小练习</h3>
+          <p>课堂/自学的小型布局练习。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 联系 -->
+    <section id="contact" class="card">
+      <h2>联系方式</h2>
+      <ul>
+        <li>邮箱：yiiizzz@swu.edu.com</li>
+        <li>GitHub：<a href="https://github.com/Yiiizzz" target="_blank">github.com/Yiiizzz</a></li>
+      </ul>
+
+      <form id="contactForm" novalidate>
+        <h3>给我留言</h3>
+        <label>姓名：<input type="text" name="name" required /></label>
+        <label>邮箱：<input type="email" name="email" required /></label>
+        <label>内容：<textarea name="message" rows="4" required></textarea></label>
+        <button type="submit">提交</button>
+        <p class="form-tip" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <p>© 2025 张敬熠. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
