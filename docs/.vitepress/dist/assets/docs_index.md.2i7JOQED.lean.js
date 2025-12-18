@@ -1,1 +1,0 @@
-import{_ as a,c as t,o as i,ae as r}from"./chunks/framework.CDjunVez.js";const h=JSON.parse('{"title":"文档","description":"","frontmatter":{},"headers":[],"relativePath":"docs/index.md","filePath":"docs/index.md"}'),o={name:"docs/index.md"};function n(d,e,l,s,c,_){return i(),t("div",null,[...e[0]||(e[0]=[r("",2)])])}const m=a(o,[["render",n]]);export{h as __pageData,m as default};
