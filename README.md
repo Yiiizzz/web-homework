@@ -10,3 +10,8 @@ Web 课堂作业
 
 
 
+
+
+## 在线预览（GitHub Pages）
+
+- 项目三（VitePress 站点）：https://yiiizzz.github.io/web-homework/
