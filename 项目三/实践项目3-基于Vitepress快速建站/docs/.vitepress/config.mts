@@ -31,8 +31,8 @@ export default defineConfig({
           text: '文档',
           items: [
             { text: '文档首页', link: '/docs/' },
-            { text: '快速开始', link: '/docs/guide/getting-started' },
-            { text: '配置说明', link: '/docs/guide/configuration' }
+            { text: '快速开始', link: '/docs/docs/guide/getting-started' },
+            { text: '配置说明', link: '/docs/docs/guide/configuration' }
           ]
         }
       ]
