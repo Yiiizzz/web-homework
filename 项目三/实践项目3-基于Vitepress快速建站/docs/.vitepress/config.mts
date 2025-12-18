@@ -5,6 +5,7 @@ export default defineConfig({
   title: '我的个人网站',
   description: '使用 VitePress 搭建的个人网站',
   lang: 'zh-CN',
+  base: '/web-homework/项目三/实践项目3-基于Vitepress快速建站/',
 
   themeConfig: {
     nav: [
