@@ -1,6 +1,4 @@
-# 鏂囨。
+# 文档首页
 
-- [蹇�熷紑濮媇(/docs/guide/getting-started)
-- [閰嶇疆](/docs/guide/configuration)
-- [API](/docs/reference/api)
-- [涓婚閰嶇疆](/docs/reference/theme-config)
+- [快速开始](/docs/guide/getting-started)
+- [配置说明](/docs/guide/configuration)

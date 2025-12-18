@@ -1,7 +1,5 @@
-# 快速开始
+# ���ٿ�ʼ
 
-## 安装依赖
-npm install
-
-## 启动开发服务器
-npm run docs:dev
+1. npm install
+2. npm run docs:dev
+3. npm run docs:build
