@@ -1,0 +1,1 @@
+import{_ as e,c as B,o as t,ae as A}from"./chunks/framework.BKZiBM5h.js";const c=JSON.parse('{"title":"文档","description":"","frontmatter":{},"headers":[],"relativePath":"docs/index.md","filePath":"docs/index.md"}'),a={name:"docs/index.md"};function r(o,E,i,s,n,d){return t(),B("div",null,[...E[0]||(E[0]=[A("",2)])])}const _=e(a,[["render",r]]);export{c as __pageData,_ as default};
