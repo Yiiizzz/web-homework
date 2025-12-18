@@ -1,12 +1,25 @@
-# Web homework
+# 实践项目3：基于 VitePress 的快速建站
 
-#### 介绍
-Web 课堂作业
+## 一、项目简介
+本项目是《Web 前端开发》课程实践项目三，  
+使用 **VitePress** 搭建一个静态网站，用于展示个人信息与学习内容。
 
-# 我的第一次 Git 提交
-这是我在 VS Code 中编辑并提交的内容。
+项目目标：
+- 学会使用 VitePress 构建静态站点
+- 理解 docs 目录结构
+- 掌握本地运行与静态部署流程
 
-# 这是我使用 Git 命令进行的第二次提交。
+---
 
+## 二、项目结构说明
 
-
+```text
+实践项目3-基于Vitepress快速建站/
+├─ docs/
+│  ├─ index.md        首页
+│  ├─ about.md        关于我
+│  └─ .vitepress/
+│     └─ config.mts   站点配置文件
+├─ package.json
+├─ package-lock.json
+└─ README.md
