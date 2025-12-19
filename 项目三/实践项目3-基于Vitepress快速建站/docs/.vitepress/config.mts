@@ -4,17 +4,26 @@ export default defineConfig({
   title: '我的个人网站',
   description: '使用 VitePress 搭建的个人网站',
   lang: 'zh-CN',
-
-
   base: '/web-homework/',
 
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于我', link: '/about' },
       { text: '博客', link: '/blog/' },
-      { text: '文档', link: '/docs/' }
+      { text: '文档', link: '/docs/' },
+      { text: '关于', link: '/about' }
     ],
+
+    outline: [2, 3],
+    outlineTitle: '目录',
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Yiiizzz' }
+    ],
+    search: {
+      provider: 'local'
+    },
+
 
     sidebar: {
       '/blog/': [
@@ -31,8 +40,8 @@ export default defineConfig({
           text: '文档',
           items: [
             { text: '文档首页', link: '/docs/' },
-            { text: '快速开始', link: '/docs/docs/guide/getting-started' },
-            { text: '配置说明', link: '/docs/docs/guide/configuration' }
+            { text: '快速开始', link: '/docs/guide/getting-started' },
+            { text: '配置说明', link: '/docs/guide/configuration' }
           ]
         }
       ]
